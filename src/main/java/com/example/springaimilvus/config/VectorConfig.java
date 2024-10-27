@@ -19,7 +19,7 @@ public class VectorConfig {
     private String endpoint;
 
     @Bean
-    public MilvusServiceClient milvusClient() {
+    public MilvusServiceClient milvusServiceClient() {
         return new MilvusServiceClient(ConnectParam.newBuilder()
                 .withAuthorization(username, password)
                 .withUri(endpoint)
