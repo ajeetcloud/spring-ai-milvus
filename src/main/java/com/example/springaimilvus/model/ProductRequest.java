@@ -4,13 +4,13 @@ public class ProductRequest {
 
     private long productId;
 
-    String description;
+    private String description;
 
-    String category;
+    private String category;
 
-    String brand;
+    private String brand;
 
-    double price;
+    private double price;
 
     public long getProductId() {
         return productId;
